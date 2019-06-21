@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>height</key>
+			<string>150</string>
+			<key>icon</key>
+			<string>Roxanne-Header</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>&quot;For what is a man profited, if he shall gain the whole world, and lose his own soul? or what shall a man give in exchange for his soul?
+For the Son of man shall come in the glory of his Father with his angels; and then he shall reward every man according to his works.&quot; Matthew 16:26-27 KJV.</string>
+		</dict>
+		<dict>
+			<key>PostNotifcation</key>
+			<string>com.ikilledappl3.roxanne-prefsreload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.roxanne</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneLockListController</string>
+			<key>label</key>
+			<string>Lock Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneUnlockListController</string>
+			<key>label</key>
+			<string>Unlock Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneLSCodeListController</string>
+			<key>label</key>
+			<string>Passcode Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneKBListController</string>
+			<key>label</key>
+			<string>Keyboard Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneFoldersListController</string>
+			<key>label</key>
+			<string>Folder Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneVolListController</string>
+			<key>label</key>
+			<string>Volume Button Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneTPListController</string>
+			<key>label</key>
+			<string>Phone Dialer Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneScreenShotListController</string>
+			<key>label</key>
+			<string>Screenshot Sounds (iOS 11/12)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>RoxanneRingerListController</string>
+			<key>label</key>
+			<string>Vibrate Switch Sounds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Follow me on Twitter for support or just to follow!</string>
+			<key>label</key>
+			<string>Support</string>
+		</dict>
+		<dict>
+			<key>big</key>
+			<string>56</string>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>iKilledAppl3</string>
+			<key>user</key>
+			<string>iKilledAppl3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please consider donating it helps a lot!</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>icon</key>
+			<string>/Library/Application Support/Roxanne/paypal.png</string>
+			<key>label</key>
+			<string>Donate via PayPal</string>
+			<key>url</key>
+			<string>http://www.paypal.me/iKilledAppl3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>To apply changes please respring.</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>Roxanne © 2019 J.K. Hayslip (iKilledAppl3). All rights reserved. Romans 3:10</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Roxanne</string>
+</dict>
+</plist>

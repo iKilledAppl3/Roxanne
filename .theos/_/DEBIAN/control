@@ -1,0 +1,10 @@
+Package: com.ikilledappl3.roxanne
+Name: Roxanne
+Depends: mobilesubstrate, ws.hbang.common, com.ikilledappl3.malipo, firmware (>= 10.0)
+Architecture: iphoneos-arm
+Description: An awesome UISounds Customizer!
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Section: Tweaks
+Version: 1.2.1-1
+Installed-Size: 5868

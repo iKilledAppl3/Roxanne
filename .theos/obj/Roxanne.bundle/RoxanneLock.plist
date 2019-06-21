@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+        	<dict>
+			<key>PostNotifcation</key>
+			<string>com.ikilledappl3.roxanne-prefsreload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.roxanne</string>
+			<key>key</key>
+			<string>kUseDefaultLock</string>
+			<key>label</key>
+			<string>Use Default Lock Sound</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Lock Sounds go in /Library/Application Support/Roxanne/LockSounds/Lock/</string>
+			<key>label</key>
+			<string>Choose a sound</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>None</string>
+			<key>defaults</key>
+			<string>com.ikilledappl3.roxanne</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>kLock</string>
+			<key>label</key>
+			<string>Lock Sounds</string>
+			<key>set</key>
+			<string>setAndPreview:forSpecifier:</string>
+			<key>title</key>
+			<string>Lock Sounds</string>
+			<key>titlesDataSource</key>
+			<string>getData:</string>
+			<key>valuesDataSource</key>
+			<string>getData:</string>
+		</dict>
+		<dict>
+			<key>PostNotifcation</key>
+			<string>com.ikilledappl3.roxanne-prefsreload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.roxanne</string>
+			<key>key</key>
+			<string>kUseMalipoLock</string>
+			<key>label</key>
+			<string>Use Sounds from Malipo</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>None</string>
+			<key>defaults</key>
+			<string>com.ikilledappl3.roxanne</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>kMalipoLock</string>
+			<key>label</key>
+			<string>Malipo Sounds</string>
+			<key>set</key>
+			<string>previewAndSet:forSpecifier:</string>
+			<key>title</key>
+			<string>Malipo Sounds</string>
+			<key>titlesDataSource</key>
+			<string>getValues:</string>
+			<key>valuesDataSource</key>
+			<string>getValues:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Malipo has sound packs that are available to download on Cydia. Search for Malipo Sounds Pack. You can use these for Malipo and Roxanne. </string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Lock Sounds</string>
+</dict>
+</plist>

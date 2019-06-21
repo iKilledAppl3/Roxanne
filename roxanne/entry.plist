@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = Roxanne;
+	cell = PSLinkCell;
+	detail = RoxanneListController;
+	icon = Roxanne.png;
+	isController = 1;
+	label = Roxanne;
+    };
+}
