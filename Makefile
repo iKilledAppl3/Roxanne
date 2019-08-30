@@ -1,7 +1,7 @@
 ARCHS = armv7 arm64 arm64e
-SDK = iPhoneOS12.1.2
+SDK = iPhoneOS12.4
 FINALPACKAGE = 1
-THEOS_DEVICE_IP = 192.168.1.101
+THEOS_DEVICE_IP = 192.168.1.253
 
 include $(THEOS)/makefiles/common.mk
 

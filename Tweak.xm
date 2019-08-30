@@ -4,7 +4,6 @@
 Created by J.K. Hayslip (@iKilledAppl3) March 25th, 2019
 All rights reserved. */
 
-SBMediaController *mediaController = [%c(SBMediaController) sharedInstance];
 //CUCaptureController *captureController = [%c(CUCaptureController) sharedInstance];
 //&& !captureController.isCapturingVideo && !captureController.isCapturingBurst) {
 
@@ -107,6 +106,8 @@ AudioServicesCreateSystemSoundID((CFURLRef)[NSURL fileURLWithPath:[NSString stri
 
 //call the sound when the screenshot is being taken 
 -(void)takeScreenshotAndEdit:(BOOL)arg1 {
+	//This is here because iOS 12.4 hates it being statically called??? Why???
+	SBMediaController *mediaController = [%c(SBMediaController) sharedInstance];
 	if (kEnabled && !kUseDefaultScreenshot && !mediaController.isRingerMuted) {
      %orig;
 if (kUseMalipoScreenshotSound) {
@@ -139,6 +140,8 @@ AudioServicesCreateSystemSoundID((CFURLRef)[NSURL fileURLWithPath:[NSString stri
 
 %hook SSScreenCapturer
 +(void)playScreenshotSound {
+	//This is here because iOS 12.4 hates it being statically called??? Why???
+	SBMediaController *mediaController = [%c(SBMediaController) sharedInstance];
   if (kEnabled && !kUseDefaultScreenshot && !mediaController.isRingerMuted) {
   //Silence the original sound 
   // can’t call a nil statement here because it won’t play the sound :/ if we add the systemSoundID here it will only fire once. 
@@ -186,7 +189,8 @@ else {
 %hook VolumeControl 
 
 -(void)increaseVolume {
-
+//This is here because iOS 12.4 hates it being statically called??? Why???
+	SBMediaController *mediaController = [%c(SBMediaController) sharedInstance];
     if (kEnabled && ![[%c(SBLockScreenManager) sharedInstance] isUILocked]) {
     	 %orig;
        if (kUseMalipoVol) {
@@ -224,6 +228,8 @@ AudioServicesCreateSystemSoundID((CFURLRef)[NSURL fileURLWithPath:[NSString stri
 }
 
 -(void)decreaseVolume {
+	//This is here because iOS 12.4 hates it being statically called??? Why???
+	SBMediaController *mediaController = [%c(SBMediaController) sharedInstance];
        if (kEnabled && ![[%c(SBLockScreenManager) sharedInstance] isUILocked]) {
        	 %orig;
        if (kUseMalipoVol) {
