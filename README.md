@@ -24,7 +24,7 @@ Malipo is also open sourced! [Malipo Source Code](https://github.com/iKilledAppl
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project doesn't contain a license because this project is copyrighted all code is read-only and must be credited to original author. 
 
 ## Acknowledgments
 
